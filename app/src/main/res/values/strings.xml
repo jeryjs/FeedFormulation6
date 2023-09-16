@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Feed Formulation 6</string>
+
+    <string-array name="bw_array">
+        <item>200 KG</item>
+        <item>250 KG</item>
+        <item>300 KG</item>
+        <item>350 KG</item>
+        <item>400 KG</item>
+        <item>450 KG</item>
+        <item>500 KG</item>
+        <item>550 KG</item>
+        <item>600 KG</item>
+    </string-array>
+
+    <string-array name="my_array">
+        <item>3 KG</item>
+        <item>4 KG</item>
+        <item>5 KG</item>
+        <item>6 KG</item>
+        <item>7 KG</item>
+        <item>8 KG</item>
+        <item>9 KG</item>
+        <item>10 KG</item>
+        <item>11 KG</item>
+        <item>12 KG</item>
+        <item>13 KG</item>
+        <item>14 KG</item>
+        <item>15 KG</item>
+        <item>16 KG</item>
+        <item>17 KG</item>
+        <item>18 KG</item>
+        <item>19 KG</item>
+        <item>20 KG</item>
+    </string-array>
+
+    <string-array name="mf_array">
+        <item>3 %</item>
+        <item>4 %</item>
+        <item>5 %</item>
+        <item>6 %</item>
+        <item>7 %</item>
+    </string-array>
+
+    <string-array name="pr_array">
+        <item>Not Pregnant</item>
+        <item>6 Months</item>
+        <item>7 Months</item>
+        <item>8 Months</item>
+    </string-array>
+
+    <string-array name="type_array">
+        <item>Roughages</item>
+        <item>Concentrates</item>
+        <item>Minerals</item>
+    </string-array>
+</resources>

@@ -1,0 +1,254 @@
+[
+    {
+        "id": "0",
+        "name": "CO-4 grass",
+        "cost": "3",
+        "checked": true,
+        "type": "R",
+        "details": [20, 8, 52, 0.38, 0.36],
+        "percentage": {
+            "cow": 40,
+            "buffalo": 40
+        }
+    },
+    {
+        "id": "1",
+        "name": "Co Fs 29 sorghum fodder",
+        "cost": "3",
+        "checked": true,
+        "type": "R",
+        "details": [20, 7, 50, 0.3, 0.25],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "2",
+        "name": "Maize fodder",
+        "cost": "3",
+        "checked": true,
+        "type": "R",
+        "details": [20, 8, 60, 0.53, 0.14],
+        "percentage": {
+            "cow": 40,
+            "buffalo": 40
+        }
+    },
+    {
+        "id": "3",
+        "name": "Berseem",
+        "cost": "2",
+        "checked": false,
+        "type": "R",
+        "details": [20, 15.8, 60, 1.44, 0.14],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "4",
+        "name": "Paddy straw",
+        "cost": "3",
+        "checked": true,
+        "type": "R",
+        "details": [90, 3.5, 40, 0.18, 0.08],
+        "percentage": {
+            "cow": 20,
+            "buffalo": 20
+        }
+    },
+    {
+        "id": "5",
+        "name": "Ragi Straw",
+        "cost": "3.5",
+        "checked": true,
+        "type": "R",
+        "details": [90, 6, 42, 0.15, 0.09],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "6",
+        "name": "Wheat straw",
+        "cost": "2",
+        "checked": false,
+        "type": "R",
+        "details": [90.0, 3.3, 42, 0.3, 0.06],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "7",
+        "name": "Maize stover",
+        "cost": "3",
+        "checked": true,
+        "type": "R",
+        "details": [90, 3, 42, 0.53, 0.14],
+        "percentage": {
+            "cow": 40,
+            "buffalo": 40
+        }
+    },
+    {
+        "id": "8",
+        "name": "Maize",
+        "cost": "17",
+        "checked": true,
+        "type": "C",
+        "details": [90, 8.1, 79.2, 0.53, 0.41],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "9",
+        "name": "Soya DOC",
+        "cost": "38",
+        "checked": true,
+        "type": "C",
+        "details": [90, 42, 70, 0.36, 1.0],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "10",
+        "name": "Copra DOC",
+        "cost": "23",
+        "checked": true,
+        "type": "C",
+        "details": [90, 22, 70, 0.2, 0.9],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "11",
+        "name": "Cotton DOC",
+        "cost": "23",
+        "checked": true,
+        "type": "C",
+        "details": [90, 32, 70, 0.31, 0.72],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "12",
+        "name": "Wheat Bran",
+        "cost": "17",
+        "checked": true,
+        "type": "C",
+        "details": [75, 12, 70, 1.067, 0.093],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "13",
+        "name": "Gram Chunies",
+        "cost": "14",
+        "checked": false,
+        "type": "C",
+        "details": [90, 17, 70, 0.28, 0.54],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "14",
+        "name": "Cotton seed",
+        "cost": "21",
+        "checked": true,
+        "type": "C",
+        "details": [90, 16, 72.2, 0.3, 0.62],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "15",
+        "name": "Chick pea husk",
+        "cost": "20",
+        "checked": true,
+        "type": "C",
+        "details": [90, 18, 45, 0.3, 0.62],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "16",
+        "name": "Concentrate Mix Type I",
+        "cost": "17",
+        "checked": true,
+        "type": "C",
+        "details": [90.0, 22, 70, 0.5, 0.45],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "17",
+        "name": "Concentrate mix Type II",
+        "cost": "15",
+        "checked": true,
+        "type": "C",
+        "details": [90.0, 20, 65, 0.5, 0.4],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "18",
+        "name": "Groundnut Cake",
+        "cost": "15",
+        "checked": true,
+        "type": "C",
+        "details": [92.3, 50, 77, 0.29, 0.68],
+        "percentage": {
+            "cow": 10,
+            "buffalo": 10
+        }
+    },
+    {
+        "id": "19",
+        "name": "MM",
+        "cost": "60",
+        "checked": true,
+        "type": "M",
+        "details": [90, 0, 0, 32, 15],
+        "percentage": {
+            "cow": 0.1,
+            "buffalo": 0.1
+        }
+    },
+    {
+        "id": "20",
+        "name": "Salt",
+        "cost": "5",
+        "checked": true,
+        "type": "M",
+        "details": [90, 0, 0, 0, 0],
+        "percentage": {
+            "cow": 0.1,
+            "buffalo": 0.1
+        }
+    }
+]

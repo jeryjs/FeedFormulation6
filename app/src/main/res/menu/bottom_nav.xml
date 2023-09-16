@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!-- bottom_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    app:cnb_unselectedColor="?attr/colorSecondary">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_anim_home"
+        android:title="Home"
+        app:cnb_iconColor="?attr/colorOnPrimary"
+        app:cnb_backgroundColor="?attr/colorPrimary" />
+    <item
+        android:id="@+id/feeds"
+        android:icon="@drawable/ic_anim_feeds"
+        android:title="Feeds"
+        app:cnb_iconColor="?attr/colorOnPrimary"
+        app:cnb_backgroundColor="?attr/colorPrimary" />
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_anim_info"
+        android:title="Info"
+        app:cnb_iconColor="?attr/colorOnPrimary"
+        app:cnb_backgroundColor="?attr/colorPrimary" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_anim_more"
+        android:title="More"
+        app:cnb_iconColor="?attr/colorOnPrimary"
+        app:cnb_backgroundColor="?attr/colorPrimary" />
+</menu>

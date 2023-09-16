@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.FeedsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp"
+            android:clipToPadding="false" />
+
+        <com.nambimobile.widgets.efab.ExpandableFabLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:efab_layout_fabOptionOpeningAnimationDurationMs="25"
+            app:efab_layout_labelHiddenToVisibleAnimationDurationMs="75">
+
+            <com.nambimobile.widgets.efab.Overlay
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.nambimobile.widgets.efab.ExpandableFab
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:contentDescription="Feeds"
+                app:efab_closingAnimationDurationMs="250" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/addNewFeedsFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_icon="@drawable/ic_list_add_24"
+                app:label_text="Add new feed" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/exportFeedsFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_icon="@drawable/ic_export_24"
+                app:label_text="Export feeds list" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/importFeedsFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_icon="@drawable/ic_import_24"
+                app:label_text="Import feeds list" />
+
+            <com.nambimobile.widgets.efab.FabOption
+                android:id="@+id/resetFeedsFab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_icon="@drawable/ic_import_24"
+                app:label_text="Reset feeds list" />
+
+        </com.nambimobile.widgets.efab.ExpandableFabLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
